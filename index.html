@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <p id="h1">To Do List</p>
+        <p id="h2">Make and organized your list of tasks that you will do in the future!</p>
+    </div>
+    <div class="container">
+        <div class="img">
+            <button type="button" class="startbtn">Get Started!</button>
+        </div>
+
+        <div class="todo_list">
+            <h1>To-Do List <img src="images/list_icon.png" alt="list_icon"></h1>
+
+            <div class="enter_bar">
+                <input type="text" id="taskInput" placeholder="Enter Your Task!!">
+                <button id="addTaskBtn" onclick="addTask()">Add Task</button>
+            </div>
+
+            <ul id="taskList">
+            <!-- <li class="checked">L1</li>
+            <li>L2</li>  -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
